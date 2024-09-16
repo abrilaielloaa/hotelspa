@@ -1,0 +1,14 @@
+article{
+    width: 18rem;
+}
+article div{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+h2{
+    text-align: center;
+}
+div a{
+    width: 50%;
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <header>
+     <nav>
+      <ul>
+        <li>Item</li>
+        <li>Item</li>
+        <li>Item</li>
+        <li>Item</li>
+        <li>Item</li>
+      </ul>
+     </nav>       
+    </header>
+    <main>
+      <section id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assets/jhon-paul-dela-cruz-hx36aRqV3YA-unsplash.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/luis-alberto-nKUlPRDqaBE-unsplash.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/scott-webb-IZmPdbnb-3I-unsplash.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </section>
+      <section class="container-fluid">
+        <div>
+          <h2>Ofertas</h2>
+        </div>
+        <div class="row justify-content-around">
+          <article class="card col-10 col-md-3">
+            <img src="./assets/remera.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h3 class="card-title">Remera</h3>
+              <p class="card-text">$6000</p>
+              <a href="#" class="btn btn-primary">Comprar</a>
+            </div>
+          </article>
+          <article class="card col-10 col-md-3">
+            <img src="./assets/remera.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h3 class="card-title">Remera</h3>
+              <p class="card-text">$6000</p>
+              <a href="#" class="btn btn-primary">Comprar</a>
+            </div>
+          </article>
+          <article class="card col-10 col-md-3">
+            <img src="./assets/remera.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h3 class="card-title">Remera</h3>
+              <p class="card-text">$6000</p>
+              <a href="#" class="btn btn-primary">Comprar</a>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="d-flex flex-column align-content-center flex-wrap">
+        <h2>Contacto</h2>
+        <form class="w-50">
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
